@@ -88,7 +88,7 @@ function nameCheck(name){
   }else if(name === "Bryan"){
     return 'Hey Bryan!'
   }else{
-    return 'Cool name, NAMEPARAM'
+    return 'Cool name, Joe'
   }
 }
 // Code here
@@ -155,7 +155,7 @@ function pond() {
 let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "rubberDuck", "sailorDuck"];
+let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
 let bathtubScope = ["duck", "rubberDuck", "sailorDuck"];
